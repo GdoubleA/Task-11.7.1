@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, #FBFBFB 50%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+table {
+    text-align: center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    width: 80%;
+  }
+  
+  td, th {
+    border-collapse: collapse;
+    padding: 8px;
+    /* border-radius: 15px; */
+    border: #000 solid 0.5px;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #B5E916;
+  }
+
+  tr:nth-last-child(odd) {
+    background-color: rgba(240, 248, 255, 0.678);
+  }
+
+  div {
+    margin-top: 40px;
+  }
+
+  tr:hover {
+    cursor: pointer;
+    background-color: rgba(0, 255, 255, 0.425);
+  }
